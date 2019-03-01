@@ -3,7 +3,7 @@ class Stopwatch{
         this.startedAt = null
         this.stoppedAt = null
     }
-    start(){
+    start(text){
         this.startedAt = new Date()
     }
     stop(){
@@ -17,6 +17,7 @@ class Stopwatch{
 
 
 let sw = new Stopwatch()
+let sw2 = new Stopwatch()
 sw.start()
 
 console.log(`Hello Alex`)
